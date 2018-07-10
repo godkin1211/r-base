@@ -1,2 +1,2 @@
 # r-base
-R-base docker image for using in China
+This a Docker file for R-base based-on Ubuntu 18.04. 
