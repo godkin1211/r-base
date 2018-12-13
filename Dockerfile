@@ -3,7 +3,7 @@ FROM alpine:edge
 MAINTAINER chiachun.chiu <chiachun.chiu@gmail.com>
 
 RUN apk update && \
-    apk add --no-cache bash curl curl-dev \
+    apk add --no-cache bash curl curl-dev file\
 	                   libxml2-dev gcc g++ git coreutils \
 					   ncurses linux-headers musl-dev && \
     apk add --no-cache R R-dev R-doc R-mathlib && \
